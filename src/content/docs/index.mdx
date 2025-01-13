@@ -1,0 +1,44 @@
+---
+title: Airland World
+description: Airland World the planetary sandbox.
+
+template: splash
+hero:
+  tagline: Explore the entire planet, fly, drive, survive, fight, meet people. Release date 2025.
+  image:
+    file: ../../assets/logosquare.png
+
+  actions:
+    - text: News
+      link: /blog/
+      icon: right-arrow
+
+    - text: Read the Documentation
+      link: /awintro/01-aw-players/
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Tweet, Vimeo, YouTube } from 'astro-embed';
+
+
+<YouTube id="https://youtu.be/64ra8StBqRk?list=PLrNfEgJDjXSicueSw1zygsi1jmXO7I9KS" posterQuality ="max"/>
+
+## How to Play
+
+<CardGrid>
+	<Card title="Airland Life" icon="sun">
+		Create your own charaters, pick up a job and play anywhere on the planet. Discover the first [Planetary Roleplay Game](/awintro/01-aw-players/).
+	</Card>
+	<Card title="Create your World" icon="codeberg">
+		Create your own experiences to play with friends or share with the community. <br/>[Learn More](/awintro/03-aw-creators/).
+	</Card>
+
+	<Card title="Create your Games" icon="rocket">
+		Create your games and assets and sell them on the Marketplace.  <br/>[Learn More](/awintro/04-aw-pro/).
+	</Card>
+	<Card title="Visit the Marketplace" icon="seti:shell">
+		Coming soon...
+	</Card>
+</CardGrid>
